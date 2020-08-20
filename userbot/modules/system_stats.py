@@ -224,7 +224,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     uptime = await get_readable_time((time.time() - StartTime))
-    output = ("`ProjectDils is running...`\n"
+    output = ("`Assalamualaikum...\nProjectDils is running...`\n"
               f"`•••••••••••••••••••••••••••••••••••••`\n"
               f"👤 `User           :`  {DEFAULTUSER}\n"
               f"🐍 `Python         : v{python_version()}`\n"
